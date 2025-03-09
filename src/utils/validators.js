@@ -6,7 +6,7 @@ export const validateEmail = (email) => {
     return re.test(email);
   };
   
-  // Validate password strength
+  // Validate password strength 
   export const validatePassword = (password) => {
     // Password must be at least 6 characters
     if (password.length < 6) {
